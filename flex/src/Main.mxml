@@ -57,7 +57,7 @@
             chatInput.text = "";
         }
 
-        public function reciveMessage(message):void {
+        public function receiveMessage(message):void {
             addLine(message);
         }
         ]]></fx:Script>

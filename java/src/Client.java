@@ -1,5 +1,5 @@
 public class Client {
-    public void reciveMessage(String message) {
+    public void receiveMessage(String message) {
         System.out.println(message);
     }
 }
