@@ -3,7 +3,7 @@
                xmlns:s="library://ns.adobe.com/flex/spark"
                 xmlns:mx="library://ns.adobe.com/flex/mx">
     <fx:Script><![CDATA[
-        var nc;
+        private var nc:NetConnection;
 
         private function connect():void {
             connectButton.enabled = false;
@@ -57,7 +57,7 @@
             chatInput.text = "";
         }
 
-        public function receiveMessage(message):void {
+        public function receiveMessage(message:String):void {
             addLine(message);
         }
         ]]></fx:Script>
